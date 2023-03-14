@@ -1,0 +1,9 @@
+.navbar{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    color: whitesmoke;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}

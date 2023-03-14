@@ -1,0 +1,25 @@
+.tabla {
+    border-collapse: collapse;
+    width: 500px;
+    margin-left: 35vw;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+th, td{
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: grey;
+    color: black;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+  

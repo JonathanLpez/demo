@@ -1,0 +1,29 @@
+.btn{ 
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    margin-top: 10%;
+    color: white;
+    border-radius: 10%;
+    padding-left: 15px;
+    margin-left: 20px;
+}
+
+.btnDos{
+    background-color: black;
+    width: 125px;
+    height: 75px;
+    color: white;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+
+
+.btnDos-act{
+    background-color: slategray;
+    width: 125px;
+    height: 75px;
+    color: white;
+    border-radius: 10%;
+    margin-left: 20px;
+}
