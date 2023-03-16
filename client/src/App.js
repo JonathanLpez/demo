@@ -47,22 +47,23 @@ function App() {
 
   function getHTTPInactive() {
     
-    fetch("https://demo-bss.us-e2.cloudhub.io/api/phone-numbers")
+    fetch("http://localhost:3000")
+    console.log('se presiona btn inactives' )
       .then(response => response.json())
       .then(data => {
         setData(data)
-        //console.log(data)
+        console.log(data)
       })
       .catch(error => console.error(error));
   }
 
    function getHTTPIAll () {
-    console.log('se presiona btn')
-     fetch(`https://demo-bss.us-e2.cloudhub.io/api/all-phone-numbers`)
+    console.log('se presiona btn all-numbers')
+     fetch(`http://localhost:3000`)
       .then(response => response.json())
       .then(dataAll => {
         setDataAll(dataAll)
-        //console.log(dataAll)
+        console.log(dataAll)
       })
       .catch(error => console.error(error));
   }

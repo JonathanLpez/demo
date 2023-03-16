@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 
 const path = require('path')
-const serverIP = process.env.SERVER_IP;
 
 app.use(express.static(path.resolve(__dirname, '../client/build')))
 
@@ -17,8 +16,6 @@ app.get('/demo', (req, res)=>{
 port = 8080
 
 app.listen(port, ()=>{
-    console.log(`server at port ${port}`,
-    console.log(serverIP)
-    )
+    console.log(`server at port ${port}`)
 })
 
