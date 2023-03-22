@@ -103,7 +103,7 @@ function App() {
           return(
             <div className='App'>
               <Navbar></Navbar>
-              <p className='p'> Demo BSS-Status </p>
+              <p className='p'> Demo Actualizacion de numeros telefonicos </p>
               <button onClick={cambiarEstadoFalse} className='btnDos'> Regresar </button>
               <button onClick={actualizarData} className='btnDos-act'> Actualizar tabla</button>
 
@@ -115,7 +115,7 @@ function App() {
           return(
             <div className='App'>
               <Navbar></Navbar>
-              <p className='p'> Demo BSS-Status </p>
+              <p className='p'> Demo Actualizacion de numeros telefonicos </p>
               <button onClick={cambiarEstadoFalse} className='btnDos'> Regresar </button>
               <button onClick={actualizarData} className='btnDos-act'> Actualizar tabla</button>
               
@@ -130,7 +130,7 @@ function App() {
             return(
               <div className='App'>
                 <Navbar></Navbar>
-                <p className='p'> Demo BSS-Status </p>
+                <p className='p'> Demo Actualizacion de numeros telefonicos </p>
                 <button onClick={cambiarEstadoFalse} className='btnDos'> Regresar </button>
                 <button onClick={actualizarData} className='btnDos-act'> Actualizar tabla</button>
   
@@ -142,7 +142,7 @@ function App() {
             return(
               <div className='App'>
               <Navbar></Navbar>
-              <p className='p'> Demo BSS-Status </p>
+              <p className='p'> Demo Actualizacion de numeros telefonicos </p>
               <button onClick={cambiarEstadoFalse} className='btnDos'> Regresar </button>
               <button onClick={actualizarDataAll} className='btnDos-act'> Actualizar tabla</button>
               <Table data={dataAll}></Table>
@@ -155,7 +155,7 @@ function App() {
         <div className='App'>
         <Navbar>
         </Navbar>
-        <p className='p'> Demo BSS-Status </p>
+        <p className='p'> Demo Actualizacion de numeros telefonicos</p>
         <p> Selecciona los datos que deseas visualizar </p>
         <p>Una vez seleccionado podras regresar a esta vista o actualizar la tabla</p>
         <Button onClick={ejecutarFunciones} />
